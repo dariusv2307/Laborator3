@@ -1,7 +1,6 @@
 document.addEventListener("touchstart",on_touch);
 document.addEventListener("mousedown",on_touch);
-var recognition = new webkitSpeechRecognition(); (creem obiectul 
-webkitSpeechRecognition care furnizează interfața de vorbire)
+var recognition = new webkitSpeechRecognition();
 recognition.lang = 'en-US';
 function on_touch()
 {
